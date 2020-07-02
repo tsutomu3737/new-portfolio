@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <!-- <v-app>
     <v-app-bar
       app
       color="primary"
@@ -40,17 +40,33 @@
     <v-content>
       <HelloWorld/>
     </v-content>
+  </v-app> -->
+  <v-app>
+    <v-app-bar color="light-blue" dark app>
+      <v-toolbar-title>Selfindication</v-toolbar-title>
+      <v-btn text to="/">Home</v-btn>
+      <v-btn text to="/about">About</v-btn>
+      <v-btn text to="/work">Work</v-btn>
+      <v-btn text to="/favorite">Favorite</v-btn>
+      <v-btn text to="/contact">Contact</v-btn>
+    </v-app-bar>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+    <v-footer color="primary" dark app>
+      Vuetify
+    </v-footer>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+// import HelloWorld from './components/HelloWorld';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    // HelloWorld,
   },
 
   data: () => ({
