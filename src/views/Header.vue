@@ -1,6 +1,9 @@
 <template>
-<v-app>
-    <v-navigation-drawer app v-model="drawer" clipped>
+  <v-app>
+    <v-navigation-drawer
+     app v-model="drawer"
+     clipped
+    >
       <v-container>
         <v-list-item>
           <v-list-item-content>
@@ -25,7 +28,7 @@
 
     <v-app-bar color="light-blue" dark app>
       <v-app-bar-nav-icon @click="drawer=!drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title text to="/">Selfindication</v-toolbar-title>
+      <v-toolbar-title text>Selfindication</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text to="/">Home</v-btn>
       <v-btn text to="/about">About</v-btn>
@@ -34,7 +37,12 @@
       <v-btn text to="/contact">Contact</v-btn>
     </v-app-bar>
     <v-content>
-      <router-view></router-view>
+      <transition 
+       mode=”out-in”
+       appear
+      >
+        <router-view></router-view>
+      </transition>
     </v-content>
   </v-app> 
  </template>
@@ -51,7 +59,39 @@ export default {
         {name: 'Favorite', icon: 'mdi-cards-playing-outline', url:'/favorite'},
         {name: 'Contact', icon: 'mdi-email', url:'/contact'}
       ],
+      color: '',
+      colors: [
+        'primary',
+        'blue',
+        'success',
+        'red',
+        'teal',
+      ],
     }
-  }
+  },
 };
 </script>
+
+<style scoped>
+.v-enter {
+  transform: translate(-100px, 0);
+  opacity: 0;
+}
+.v-enter-to {
+  opacity: 1;
+}
+.v-enter-active {
+  transition: all 1s 0s ease;
+}
+.v-leave {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.v-leave-to {
+  transform: translate(-100px, 0);
+  opacity: 0;
+}
+.v-leave-active {
+  transition: all 0.05s 0s ease;
+}
+</style>

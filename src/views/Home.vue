@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>Welcome to mypage</h1>
   </div>
 </template>
 
@@ -11,7 +12,18 @@ export default {
   name: 'Home',
   components: {
     // About,
-
+  },
+  data(){
+    return {
+      show: true
+    }
   }
 }
 </script>
+
+<style scoped>
+.home {
+  text-align: center;
+  /* font-size: 5rem; */
+}
+</style>
