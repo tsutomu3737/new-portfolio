@@ -37,9 +37,10 @@
       <v-btn text to="/contact">Contact</v-btn>
     </v-app-bar>
     <v-content>
-      <transition 
-       mode=”out-in”
-       appear
+      <transition
+        mode=”out-in”
+        enter-active-class="animate__animated animate__heartBeat"
+        appear
       >
         <router-view></router-view>
       </transition>
@@ -51,21 +52,13 @@
 export default {
   data(){
     return{
-      drawer: null,
+      drawer: false,
       nav_lists:[
         {name: 'Home', icon: 'mdi-home', url:'/'},
         {name: 'About', icon: 'mdi-information', url:'/about'},
         {name: 'Work', icon: 'mdi-laptop-mac', url:'/work'},
         {name: 'Favorite', icon: 'mdi-cards-playing-outline', url:'/favorite'},
         {name: 'Contact', icon: 'mdi-email', url:'/contact'}
-      ],
-      color: '',
-      colors: [
-        'primary',
-        'blue',
-        'success',
-        'red',
-        'teal',
       ],
     }
   },
@@ -76,12 +69,14 @@ export default {
 .v-enter {
   transform: translate(-100px, 0);
   opacity: 0;
+  transition-delay: 1.27s;
 }
 .v-enter-to {
   opacity: 1;
+  transition-delay: 1.27s;
 }
 .v-enter-active {
-  transition: all 1s 0s ease;
+  transition: all 1.27s 0s ease;
 }
 .v-leave {
   transform: translate(0, 0);
@@ -92,6 +87,6 @@ export default {
   opacity: 0;
 }
 .v-leave-active {
-  transition: all 0.05s 0s ease;
+  transition: all 0.5s 0s ease;
 }
 </style>
