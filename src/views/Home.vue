@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <span>Welcome to mypage</span>
-    <video id="bg-video" src="https://player.vimeo.com/external/311357919.hd.mp4?s=82e2b2a233a70085aa8f5392dde7ea4a5d73c88c&profile_id=174" autoplay loop muted></video>
+    <video id="bg-video" src="https://player.vimeo.com/external/391912756.sd.mp4?s=26fc5e1ece3e45714b206ff3d956e0406002dbc2&profile_id=139&oauth2_token_id=57447761" autoplay loop muted></video>
   </div>
 </template>
 
@@ -36,6 +36,7 @@ export default {
   }
 
   .home span{
+    color: #FFF;
     text-align: center;
     font-size: 5rem;
     font-weight: bold;

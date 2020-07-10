@@ -3,11 +3,12 @@
     <v-navigation-drawer
      app v-model="drawer"
      clipped
+     :color="color"
     >
       <v-container>
         <v-list-item>
           <v-list-item-content>
-            <v-list-item-title class="title grey--text text--darken-2">
+            <v-list-item-title class="title">
               Menu
             </v-list-item-title>
           </v-list-item-content>
@@ -60,6 +61,7 @@ export default {
         {name: 'Favorite', icon: 'mdi-cards-playing-outline', url:'/favorite'},
         {name: 'Contact', icon: 'mdi-email', url:'/contact'}
       ],
+      color: 'transparent',
     }
   },
 };
@@ -88,5 +90,16 @@ export default {
 }
 .v-leave-active {
   transition: all 0.5s 0s ease;
+}
+
+.v-list-item__title,
+.v-list-item__icon,
+.v-list-item__icon i 
+{
+  color: #FFF;
+}
+
+.v-list-item::hover {
+  background: black;
 }
 </style>
