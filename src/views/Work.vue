@@ -22,12 +22,7 @@
     font-size: 5rem;
     font-weight: bold;
     width: 100%;
-    height: 100vh;
     position: absolute;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
-    background-size: 3px 3px;
-    z-index: 2;
+    z-index: 1;
   }
 </style>

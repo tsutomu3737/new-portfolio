@@ -40,7 +40,6 @@
     <v-content>
       <transition
         mode=”out-in”
-        enter-active-class="animate__animated animate__heartBeat"
         appear
       >
         <router-view></router-view>
@@ -71,14 +70,15 @@ export default {
 .v-enter {
   transform: translate(-100px, 0);
   opacity: 0;
-  transition-delay: 1.27s;
+  /* transition-delay: 1.27s; */
 }
 .v-enter-to {
   opacity: 1;
-  transition-delay: 1.27s;
+  /* transition-delay: 1.27s; */
 }
 .v-enter-active {
-  transition: all 1.27s 0s ease;
+  /* transition: all 1.27s 0s ease; */
+  transition: all 0s 0s ease;
 }
 .v-leave {
   transform: translate(0, 0);
@@ -89,7 +89,8 @@ export default {
   opacity: 0;
 }
 .v-leave-active {
-  transition: all 0.5s 0s ease;
+  /* transition: all 0.5s 0s ease; */
+  transition: all 0s 0s ease;
 }
 
 .v-list-item__title,
@@ -99,7 +100,7 @@ export default {
   color: #FFF;
 }
 
-.v-list-item::hover {
-  background: black;
+.container {
+  padding: 0;
 }
 </style>
