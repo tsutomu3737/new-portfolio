@@ -5,8 +5,9 @@ const config = {
   authDomain: "selfindication.firebaseapp.com",
   databaseURL: "https://selfindication.firebaseio.com",
   projectId: "selfindication",
-  storageBucket: "gs://selfindication.appspot.com",
+  storageBucket: "selfindication.appspot.com",
   messagingSenderId: "271273601599"
 };
 firebase.initializeApp(config);
 export const functions = firebase.functions();
+
