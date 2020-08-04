@@ -17,3 +17,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  main .v-main{
+    padding: 0 !important;
+  }
+</style>
