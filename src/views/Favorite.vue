@@ -14,7 +14,7 @@
       <ul class="baseball">
         <li><img src="./picture/daihyosen.png"></li>
         <li><img src="./picture/toshitaiko.png"></li>
-        <li><img src="./picture/ichiro.png"></li>
+        <li class="ichiro" ><img src="./picture/ichiro.png"></li>
       </ul><br>
     </div>
     <p class="play">
@@ -22,7 +22,7 @@
       小6〜中2まで硬式野球をやってました。<br>
       2017年にスカウトされ、毎年参戦しています。<br>
       ポジションは外野全般、サード<br>
-      今年はまだ開幕していません😭
+      今年は、まだ開幕していません😭
     </p><br>
     <p class="golf">
       【ゴルフ】<br>
@@ -32,7 +32,7 @@
       パットとアプローチが課題です。。。<br>
     </p><br><br>
     <ul class="golf_pic">
-      <li><img style="height:30%;" src="./picture/golf.jpg"></li>
+      <li><img src="./picture/numazu.jpg"></li>
       <li><img src="./picture/nighter.jpg"></li>
     </ul><br><br>
     <p class="travel">
@@ -42,26 +42,26 @@
       左から、タイのアユタヤ(18年/10月)、フィリピンのマニラ(19年/7月)、上海(20年/1月)です。<br>
     </p>
     <ul class="travel_pic">
-      <li><img style="height:23%;" src="./picture/IMG_1178.jpg"></li>
+      <li><img src="./picture/IMG_1178.jpg"></li>
       <li><img src="./picture/IMG_3209.jpeg"></li>
-      <li><img style="height:24%;" src="./picture/kyushogatsu.png"></li>
+      <li><img src="./picture/kyushogatsu.png"></li>
     </ul>
   </div>
 </template>
 <style scoped>
 
-  #bg-video{
+  #bg-video {
     position: fixed;
     right: 0;
     bottom: 0;
-    /* top: 0; */
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
     background-size: cover;
   }
-  .favorite span{
+
+  .favorite span {
     color: #fff;
     text-align: center;
     font-size: 5rem;
@@ -71,14 +71,14 @@
     z-index: 1;
   }
 
-  .favorite p{
+  .favorite p {
     color: #FFF;
     text-align: left;
     font-size: 2rem;
     font-weight: bold;
     width: 100%;
     position: absolute;
-    margin: 6rem 6% 0 6%;
+    margin: 6rem 4% 0 4%;
     z-index: 1;
   }
 
@@ -92,35 +92,31 @@
 
   .baseball li {
     width: calc(100%/3);
+    margin: 8% auto 0 auto;
   }
 
-
-  .baseball img{
-    padding: 21% 5% 0 5%;
-  }
-
-  p.play{
+  p.play {
     margin-top: 33%;
   }
 
-  p.golf{
+  p.golf {
     margin-top: 45%;  
   }
 
-  .golf_pic li{
+  .golf_pic li {
     margin: 45% auto 0 auto;
     width: calc(50%/2);
   }
 
-  .golf_pic img{
+  .golf_pic img {
     padding: 15% 0% 0 0%;
   }
 
-  p.travel{
+  p.travel {
     margin-top: 37%;
   }
 
-  .travel_pic li{
+  .travel_pic li {
     margin: 53% auto 0 auto;
     width: calc(100%/2);
   }
@@ -129,25 +125,137 @@
     width: 30%;
     position: absolute;
     z-index: 1;
-    /* padding: 0 40% 0 40%; */
   }
 
-  @media screen and (min-width: 1081px){
-  .baseball img{
-    padding: 28% 5% 0 5%;
+@media screen and (max-width: 1280px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 30% auto 0 auto;
   }
 
-  p.play{
-    margin-top: 38%;
+  .ichiro img {
+    height: 15%; 
   }
 
-  p.golf{
-    margin-top: 57%;  
+  .favorite p {
+    font-size: 1.8rem;
   }
 
-  .golf_pic li{
-    margin: 58% auto 0 auto;
+  p.play {
+    margin-top: 17%;
+  }
+
+  p.golf {
+    margin-top: 37%;  
+  }
+
+  .golf_pic li {
+    margin: 38% auto 0 auto;
     width: calc(50%/2);
   }
+
+  .golf_pic li img {
+    height: 30%;
+  }
+
+  p.travel{
+    margin-top: 43%;
+  }
+
+  .travel_pic li{
+    margin: 60% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 23%;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 27% auto 0 auto;
+  }
+
+  .ichiro img {
+    height: 15.5%; 
+  }
+
+  .favorite p {
+    font-size: 1.8rem;
+  }
+
+  p.play {
+    margin-top: 17%;
+  }
+
+  p.golf {
+    margin-top: 37%;  
+  }
+
+  .golf_pic li {
+    margin: 35% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .golf_pic li img {
+    height: 30%;
+    width: 45%
+  }
+
+  p.travel{
+    margin-top: 40%;
+  }
+
+  .travel_pic li{
+    margin: 53% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 23%;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 0 auto;
+  }
+
+  .ichiro img {
+    height: 35.5%; 
+  }
+
+  p.play {
+    margin-top: 30%;
+  }
+
+  p.golf {
+    margin-top: 45%;  
+  }
+
+  .golf_pic li {
+    margin: 42% auto 0 auto;
+    width: calc(50%/2);
+  }
+
+  .golf_pic li img {
+    height: 35%;
+  }  
+
+  p.travel {
+    margin-top: 35%;
+  }
+
+  .travel_pic li {
+    margin: 46% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 30%;
+  }  
 }
 </style>
