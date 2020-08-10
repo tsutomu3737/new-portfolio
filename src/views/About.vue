@@ -36,7 +36,10 @@
     right: 0;
     bottom: 0;
     min-width: 100%;
+    min-height: 100%;
     width: auto;
+    height: auto;
+    background-size: cover;
   }
 
   .about span{
@@ -70,4 +73,50 @@
   .title span{
     margin-top: 3%;
   }
+
+  @media screen and (max-width: 414px){
+    .about img {
+      position: absolute;
+      z-index: 1;
+      padding: 0 30% 0 30%;
+      margin-top: -5%;
+    }
+
+    #distriction {
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+      padding-top: 70%;
+      margin: 0 2% 0 2%;
+    }
+
+    .about span {
+      margin-top: 7%;
+    }
+
+    /* #bg-video {
+      position: inherit;
+    } */
+  }
+
+  @media screen and (max-width: 375px){
+    /* .home p {
+      height: 252%;
+      width: 114%;
+    }
+
+    .home span {
+      font-size: 2.2rem;
+      margin-left: 5%;
+    }
+
+    #bg-video {
+      width: 114%;
+    } */
+  }
+
+  @media screen and (max-width: 320px){
+    /* .home span {
+      font-size: 2.0rem;
+    } */
+  }  
 </style>

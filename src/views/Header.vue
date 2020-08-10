@@ -96,4 +96,10 @@ export default {
 .container {
   padding: 0;
 }
+
+@media screen and (max-width: 414px){
+  .v-btn--router {
+    display: none;
+  }
+}
 </style>

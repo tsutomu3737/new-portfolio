@@ -180,10 +180,65 @@
   }
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 1024px){
   .baseball li {
     width: calc(100%/2);
-    margin: 31% auto 0 auto;
+    margin: 30% auto 0 auto;
+  }
+
+  .baseball img {
+    height: 12.3%; 
+  }
+
+  .favorite p {
+    font-size: 1.4rem;
+  }
+
+  p.play {
+    margin-top: 30%;
+  }
+
+  .game li{
+    width: calc(100%/2);
+    margin: 48% auto 0 auto;
+  }
+
+  .game li img {
+    width: 45%
+  }
+
+  p.golf {
+    margin-top: 38%;  
+  }
+
+  .golf_pic li {
+    margin: 56% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .golf_pic li img {
+    height: 15%;
+    width: 45%
+  }
+
+  p.travel{
+    margin-top: 37%;
+  }
+
+  .travel_pic li{
+    margin: 52% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 48% auto 0 auto;
   }
 
   .baseball img {
@@ -195,21 +250,25 @@
   }
 
   p.play {
-    margin-top: 25%;
+    margin-top: 30%;
   }
 
   .game li{
-    width: calc(50%/2);
-    margin: 44% auto 0 auto;
+    width: calc(100%/2);
+    margin: 56% auto 0 auto;
+  }
+
+  .game li img {
+    width: 45%
   }
 
   p.golf {
-    margin-top: 25%;  
+    margin-top: 35%;  
   }
 
   .golf_pic li {
-    margin: 44% auto 0 auto;
-    width: calc(50%/2);
+    margin: 62% auto 0 auto;
+    width: calc(100%/2);
   }
 
   .golf_pic li img {
@@ -218,11 +277,11 @@
   }
 
   p.travel{
-    margin-top: 32%;
+    margin-top: 37%;
   }
 
   .travel_pic li{
-    margin: 48% auto 0 auto;
+    margin: 63% auto 0 auto;
     width: calc(100%/2);
   }
 
@@ -230,6 +289,62 @@
     height: 20%;
   }
 }
+
+@media screen and (min-width: 1366px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 27% auto 0 auto;
+  }
+
+  .baseball img {
+    height: 12.5%; 
+  }
+
+  .favorite p {
+    font-size: 1.8rem;
+  }
+
+  p.play {
+    margin-top: 24%;
+  }
+
+  .game li{
+    width: calc(100%/2);
+    margin: 41% auto 0 auto;
+  }
+
+  .game li img {
+    width: 45%;
+  }
+
+  p.golf {
+    margin-top: 38%;  
+  }
+
+  .golf_pic li {
+    margin: 55% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .golf_pic li img {
+    height: 15%;
+    width: 45%
+  }
+
+  p.travel{
+    margin-top: 30%;
+  }
+
+  .travel_pic li{
+    margin: 44% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 15%;
+  }
+}
+
 
 @media screen and (min-width: 1440px){
   .baseball li {
@@ -302,11 +417,11 @@
   }
 
   p.golf {
-    margin-top: 27%;  
+    margin-top: 35%;  
   }
 
   .golf_pic li {
-    margin: 41% auto 0 auto;
+    margin: 49% auto 0 auto;
     width: calc(50%/2);
   }
 
@@ -327,5 +442,115 @@
   .travel_pic li img{
     height: 20%;
   }  
+}
+
+@media screen and (max-width: 414px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 78% auto 0 auto;
+  }
+
+  .baseball img {
+    height: 12.3%; 
+  }
+
+  .favorite p {
+    font-size: 1rem;
+  }
+
+  p.play {
+    margin-top: 43%;
+  }
+
+  .game li{
+    width: calc(100%/2);
+    margin: 78% auto 0 auto;
+  }
+
+  .game li img {
+    width: 45%
+  }
+
+  p.golf {
+    margin-top: 37%;  
+  }
+
+  .golf_pic li {
+    margin: 72% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .golf_pic li img {
+    height: 15%;
+    width: 45%
+  }
+
+  p.travel{
+    margin-top: 52%;
+  }
+
+  .travel_pic li{
+    margin: 95% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 15%;
+  }
+}
+
+@media screen and (max-width: 413px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 83% auto 0 auto;
+  }
+
+  .baseball img {
+    height: 12.3%; 
+  }
+
+  .favorite p {
+    font-size: 1rem;
+  }
+
+  p.play {
+    margin-top: 40%;
+  }
+
+  .game li{
+    width: calc(100%/2);
+    margin: 78% auto 0 auto;
+  }
+
+  .game li img {
+    width: 45%
+  }
+
+  p.golf {
+    margin-top: 37%;  
+  }
+
+  .golf_pic li {
+    margin: 82% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .golf_pic li img {
+    height: 15%;
+    width: 45%
+  }
+
+  p.travel{
+    margin-top: 50%;
+  }
+
+  .travel_pic li{
+    margin: 95% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 15%;
+  }
 }
 </style>
