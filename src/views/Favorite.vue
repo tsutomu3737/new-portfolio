@@ -129,6 +129,164 @@
     z-index: 1;
   }
 
+@media screen and (min-width: 1920px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 22% auto 0 auto;
+  }
+
+  .baseball img {
+    height: 13.5%; 
+  }
+
+  p.play {
+    margin-top: 20%;
+  }
+
+  .game li{
+    width: calc(50%/2);
+    margin: 34% auto 0 auto;
+  }
+
+  p.golf {
+    margin-top: 35%;  
+  }
+
+  .golf_pic li {
+    margin: 49% auto 0 auto;
+    width: calc(50%/2);
+  }
+
+  .golf_pic li img {
+    height: 15%;
+    width: 35%
+  }
+
+  p.travel {
+    margin-top: 25%;
+  }
+
+  .travel_pic li {
+    margin: 36% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 20%;
+  }  
+}
+
+@media screen and (min-width: 1440px){
+  .baseball li {
+    width: calc(100%/2);
+    margin: 31% auto 0 auto;
+  }
+
+  .baseball img {
+    height: 12.5%; 
+  }
+
+  .favorite p {
+    font-size: 1.8rem;
+  }
+
+  p.play {
+    margin-top: 22%;
+  }
+
+  .game li{
+    width: calc(50%/2);
+    margin: 42% auto 0 auto;
+  }
+
+  p.golf {
+    margin-top: 23%;  
+  }
+
+  .golf_pic li {
+    margin: 40% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .golf_pic li img {
+    height: 15%;
+    width: 45%
+  }
+
+  p.travel{
+    margin-top: 30%;
+  }
+
+  .travel_pic li{
+    margin: 50% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 15%;
+  }
+}
+
+@media screen and (min-width: 1366px){
+
+  .favorite p,
+  .favorite span {
+    color: #FFF;
+  }
+  .baseball li {
+    width: calc(100%/2);
+    margin: 27% auto 0 auto;
+  }
+
+  .baseball img {
+    height: 12.5%; 
+  }
+
+  .favorite p {
+    font-size: 1.8rem;
+  }
+
+  p.play {
+    margin-top: 24%;
+  }
+
+  .game li{
+    width: calc(100%/2);
+    margin: 41% auto 0 auto;
+  }
+
+  .game li img {
+    width: 45%;
+  }
+
+  p.golf {
+    margin-top: 38%;  
+  }
+
+  .golf_pic li {
+    margin: 55% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .golf_pic li img {
+    height: 15%;
+    width: 45%
+  }
+
+  p.travel{
+    margin-top: 30%;
+  }
+
+  .travel_pic li{
+    margin: 44% auto 0 auto;
+    width: calc(100%/2);
+  }
+
+  .travel_pic li img{
+    height: 15%;
+  }
+}
+
 @media screen and (max-width: 1284px){
   .baseball li {
     width: calc(100%/2);
@@ -236,9 +394,12 @@
 }
 
 @media screen and (max-width: 768px){
+  body {
+    overflow-x: hidden;
+  }
   .baseball li {
     width: calc(100%/2);
-    margin: 48% auto 0 auto;
+    margin: 35% auto 0 auto;
   }
 
   .baseball img {
@@ -246,16 +407,16 @@
   }
 
   .favorite p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   p.play {
-    margin-top: 30%;
+    margin-top: 29%;
   }
 
   .game li{
     width: calc(100%/2);
-    margin: 56% auto 0 auto;
+    margin: 49% auto 0 auto;
   }
 
   .game li img {
@@ -263,11 +424,11 @@
   }
 
   p.golf {
-    margin-top: 35%;  
+    margin-top: 37%;  
   }
 
   .golf_pic li {
-    margin: 62% auto 0 auto;
+    margin: 57% auto 0 auto;
     width: calc(100%/2);
   }
 
@@ -277,114 +438,7 @@
   }
 
   p.travel{
-    margin-top: 37%;
-  }
-
-  .travel_pic li{
-    margin: 63% auto 0 auto;
-    width: calc(100%/2);
-  }
-
-  .travel_pic li img{
-    height: 20%;
-  }
-}
-
-@media screen and (min-width: 1366px){
-  .baseball li {
-    width: calc(100%/2);
-    margin: 27% auto 0 auto;
-  }
-
-  .baseball img {
-    height: 12.5%; 
-  }
-
-  .favorite p {
-    font-size: 1.8rem;
-  }
-
-  p.play {
-    margin-top: 24%;
-  }
-
-  .game li{
-    width: calc(100%/2);
-    margin: 41% auto 0 auto;
-  }
-
-  .game li img {
-    width: 45%;
-  }
-
-  p.golf {
-    margin-top: 38%;  
-  }
-
-  .golf_pic li {
-    margin: 55% auto 0 auto;
-    width: calc(100%/2);
-  }
-
-  .golf_pic li img {
-    height: 15%;
-    width: 45%
-  }
-
-  p.travel{
-    margin-top: 30%;
-  }
-
-  .travel_pic li{
-    margin: 44% auto 0 auto;
-    width: calc(100%/2);
-  }
-
-  .travel_pic li img{
-    height: 15%;
-  }
-}
-
-
-@media screen and (min-width: 1440px){
-  .baseball li {
-    width: calc(100%/2);
-    margin: 31% auto 0 auto;
-  }
-
-  .baseball img {
-    height: 12.5%; 
-  }
-
-  .favorite p {
-    font-size: 1.8rem;
-  }
-
-  p.play {
-    margin-top: 22%;
-  }
-
-  .game li{
-    width: calc(50%/2);
-    margin: 42% auto 0 auto;
-  }
-
-  p.golf {
-    margin-top: 23%;  
-  }
-
-  .golf_pic li {
-    margin: 40% auto 0 auto;
-    width: calc(100%/2);
-  }
-
-  .golf_pic li img {
-    height: 15%;
-    width: 45%
-  }
-
-  p.travel{
-    margin-top: 30%;
+    margin-top: 35%;
   }
 
   .travel_pic li{
@@ -395,53 +449,6 @@
   .travel_pic li img{
     height: 15%;
   }
-}
-
-@media screen and (min-width: 1920px){
-  .baseball li {
-    width: calc(100%/2);
-    margin: 22% auto 0 auto;
-  }
-
-  .baseball img {
-    height: 13.5%; 
-  }
-
-  p.play {
-    margin-top: 20%;
-  }
-
-  .game li{
-    width: calc(50%/2);
-    margin: 34% auto 0 auto;
-  }
-
-  p.golf {
-    margin-top: 35%;  
-  }
-
-  .golf_pic li {
-    margin: 49% auto 0 auto;
-    width: calc(50%/2);
-  }
-
-  .golf_pic li img {
-    height: 15%;
-    width: 35%
-  }
-
-  p.travel {
-    margin-top: 25%;
-  }
-
-  .travel_pic li {
-    margin: 36% auto 0 auto;
-    width: calc(100%/2);
-  }
-
-  .travel_pic li img{
-    height: 20%;
-  }  
 }
 
 @media screen and (max-width: 414px){

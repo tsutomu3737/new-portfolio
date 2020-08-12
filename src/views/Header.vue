@@ -97,7 +97,16 @@ export default {
   padding: 0;
 }
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 1366px){
+  .spacer {
+    display: none;
+  }
+  .v-toolbar__title {
+    margin-right: 52%;
+  }
+}
+
+@media screen and (max-width: 1024px){
   .v-btn--router {
     display: none;
   }
