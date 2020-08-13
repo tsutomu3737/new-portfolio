@@ -111,4 +111,10 @@ export default {
     display: none;
   }
 }
+
+@media screen and (max-width: 320px){
+  .v-toolbar__title {
+    margin-right: 0;
+  }
+}
 </style>

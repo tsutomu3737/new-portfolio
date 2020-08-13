@@ -58,46 +58,95 @@
     padding-top: 40%;
   }
 
-  @media screen and (max-width: 414px){
+  @media screen and (max-width: 1024px){
     .home {
       background: #000;
     }
 
     .home p {
-      font-size: 1rem;
       background: #000;
-      height: 175%;
-      width: 103%;
-      margin-top: 58%;
-      padding-top: 85%;
+      height: 128%;
+      width: 100%;
+      margin-top: 56%;
+      padding-top: 0%;
     }
 
     .home span {
-      font-size: 2.5rem;
+      font-size: 5.5rem;
     }
 
     #bg-video {
       position: inherit;
+      margin-right: auto;
     }
   }
 
+  @media screen and (max-width: 812px){
+    .home span {
+      font-size: 4.5rem;
+    }
+  } 
+
+  @media screen and (max-width: 667px){
+    .home span {
+      font-size: 4rem;
+    }
+  }  
+
+  @media screen and (max-width: 568px){
+    .home span {
+      font-size: 3.5rem;
+    }
+
+    .home p {
+      font-size: 1.6rem;
+    }    
+  }  
+
+  @media screen and (max-width: 414px){
+    .home p {
+      font-size: 1rem;
+      height: 175%;
+      width: 103%;
+      margin-top: 58%;
+    }
+
+    .home span {
+      font-size: 2.5rem;
+      margin-left: 3%;
+    }
+  }
+@media screen and (max-height: 812px){
+    .home p {
+      height: 185%;
+    }
+}
   @media screen and (max-width: 375px){
     .home p {
-      height: 252%;
+      height: 251%;
       width: 114%;
     }
 
     .home span {
       font-size: 2.2rem;
-      margin-left: 5%;
+      margin-left: 8%;
     }
 
     #bg-video {
       width: 114%;
     }
   }
+  
 
   @media screen and (max-width: 320px){
+    .home p {
+      height: 177%;
+      width: 114%;
+      font-size: 0.8rem;
+      margin-right: auto;
+      margin-left: auto;      
+    }
+
     .home span {
       font-size: 2.0rem;
     }
