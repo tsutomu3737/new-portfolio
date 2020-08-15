@@ -74,17 +74,68 @@
     margin-top: 3%;
   }
 
+  @media screen and (max-width: 1366px){
+    #distriction {
+      margin: 32% 16% 0 22%;
+      font-size: 1.8rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px){
+    #distriction {
+      margin: 46% 8% 0 15%;
+      font-size: 1.7rem;
+    }
+    .about img {
+      padding: 0 35% 0 35%;
+    }
+  }
+
+  @media screen and (max-width: 812px){
+    #distriction {
+      margin: 40% 8% 0 20%;
+      font-size: 1.2rem;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    #distriction {
+      margin: 46% 7% 0 19%;
+    }
+    .about img {
+      padding: 0 37% 0 37%;
+    }    
+  }
+
+  @media screen and (max-width: 736px){
+    #distriction {
+      font-size: 1.1rem;
+    }
+  }
+
+
+  @media screen and (max-width: 667px){
+    #distriction {
+      margin-left: 15%;
+    }
+  }
+
+  @media screen and (max-width: 568px){
+    .title span {
+      margin-top: 8%;
+    }
+  }   
+
   @media screen and (max-width: 414px){
     .about img {
       position: absolute;
-      z-index: 1;
       padding: 0 30% 0 30%;
       margin-top: -5%;
     }
 
     #distriction {
-      font-size: 1.2rem;
-      line-height: 1.4rem;
+      font-size: 0.85rem;
+      line-height: 1rem;
       padding-top: 70%;
       margin: 0 2% 0 2%;
     }
@@ -92,31 +143,22 @@
     .about span {
       margin-top: 7%;
     }
-
-    /* #bg-video {
-      position: inherit;
-    } */
   }
 
   @media screen and (max-width: 375px){
-    /* .home p {
-      height: 252%;
-      width: 114%;
+    #distriction {
+      font-size: 0.76rem;
+      margin: 5% 2% 0 2%;
     }
-
-    .home span {
-      font-size: 2.2rem;
-      margin-left: 5%;
-    }
-
-    #bg-video {
-      width: 114%;
-    } */
   }
 
   @media screen and (max-width: 320px){
-    /* .home span {
-      font-size: 2.0rem;
-    } */
+    .about img {
+      padding: 0 32% 0 32%;
+      margin-top: -8%;
+    }
+    #distriction {
+      font-size: 0.65rem;
+    }
   }  
 </style>
