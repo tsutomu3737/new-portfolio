@@ -97,7 +97,7 @@ export default {
   padding: 0;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1366px){
   .v-btn--router {
     display: none;
   }

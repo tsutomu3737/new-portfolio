@@ -4,11 +4,11 @@
     <video id="bg-video" src="https://player.vimeo.com/external/422442712.sd.mp4?s=657d7d1599e623cac537e8971911fa6af9a48b21&profile_id=139&oauth2_token_id=57447761" autoplay loop muted></video>
     <div class="title">
       <span>Contact</span>
-      <span class="distriction" style="margin-top: 10%;font-size: 2rem">
+      <p class="distriction">
         お仕事のご依頼、個別相談、その他連絡を取りたい方は、<br>
         以下の公式LINEから、ご連絡ください。
-      </span>
-      <span style="margin-top:7%; margin-left:-50%;">
+      </p>
+      <span class="line">
         <a href="https://lin.ee/DmmhFaO"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="80" border="0"></a>
       </span>
     </div>
@@ -55,6 +55,18 @@
     z-index: 1;
   }
 
+  .contact p{
+    color: #FFF;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    position: absolute;
+    margin-top: 6rem;
+    z-index: 1;
+    margin: 0% 30% 0 30%;
+  }
+
   .title{
     margin-bottom: 8rem;
   }
@@ -62,4 +74,50 @@
   .title span{
     margin-top: 3%;
   }
+
+  .line {
+    margin-top:7%; 
+    margin-left:-50%;
+  }
+
+@media screen and (max-width: 1366px){
+  .contact p{
+    margin: 0% 20% 0 20%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .title span {
+    margin-top: 7%;
+  }
+
+  .contact p{
+    margin: 3% 5% 0 5%;
+  }
+/* 
+  span{
+    margin-top: 7%;
+    font-size: 1rem;
+  } */
+
+  span .distriction {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 768px){
+/* 
+  span{
+    margin-top: 7%;
+    font-size: 1rem;
+  } */
+
+  .distriction {
+    margin-top: 20%;
+  }
+
+  span .line {
+    margin-top: 10%; 
+  }
+}
 </style>

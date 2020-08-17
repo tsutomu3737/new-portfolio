@@ -7,8 +7,8 @@
       2019年はよく神宮に行ってました。<br>
       プロよりもアマチュア野球の方をよく観に行きます<br>
       都市対抗、六大学、明治神宮大会が好きです。<br>
-      プロ野球はヤクルトファンですが、どの試合でも楽しめると思います笑<br>
-      去年、巨人-マリナーズ戦でイチローを観ることが出来たのは本当に良い思い出です！<br>
+      プロ野球はヤクルトファンですが、<br>
+      どの試合でも楽しめると思います笑<br>
     </p>
     <ul class="baseball">
       <li><img src="./picture/daihyosen.png"></li>
@@ -452,9 +452,17 @@
 }
 
 @media screen and (max-width: 414px){
+  .favorite p{
+    margin-top: 3.5rem;
+  }
+
+  .favorite span {
+    font-size: 3rem;
+  }
+
   .baseball li {
     width: calc(100%/2);
-    margin: 78% auto 0 auto;
+    margin: 68% auto 0 auto;
   }
 
   .baseball img {
@@ -506,10 +514,10 @@
   }
 }
 
-@media screen and (max-width: 413px){
+@media screen and (max-width: 375px){
   .baseball li {
     width: calc(100%/2);
-    margin: 83% auto 0 auto;
+    margin: 55% auto 0 auto;
   }
 
   .baseball img {
@@ -517,7 +525,7 @@
   }
 
   .favorite p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   p.play {
@@ -559,5 +567,27 @@
   .travel_pic li img{
     height: 15%;
   }
+}
+
+@media screen and (max-width: 320px){
+  .favorite p {
+    font-size: 0.8rem;
+  }
+
+  .baseball li {
+    margin: 60% auto 0 auto;
+  }
+
+  .game li{
+    margin: 78% auto 0 auto;
+  }
+
+  .golf_pic li{
+    margin: 75% auto 0 auto;
+  }
+
+  .travel_pic li{
+    margin: 97% auto 0 auto;
+  }  
 }
 </style>

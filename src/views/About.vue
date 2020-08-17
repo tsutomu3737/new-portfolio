@@ -142,6 +142,7 @@
 
     .about span {
       margin-top: 7%;
+      font-size: 3rem;
     }
   }
 
