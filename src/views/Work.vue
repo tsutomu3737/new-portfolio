@@ -97,7 +97,7 @@
 
   @media screen and (max-width: 1024px){
     #bg-video {
-      min-width: 243%;
+      min-width: 130%;
     }
 
     .work span {
@@ -118,6 +118,12 @@
   .work p{
     font-size: 1.2rem;
   }
+}
+
+@media screen and (max-width: 768px){
+    #bg-video {
+      min-width: 243%;
+    }
 }
 
 @media screen and (max-width: 736px){
