@@ -91,9 +91,9 @@
     }
   }
 
-  @media screen and (max-width: 812px){
+  @media screen and (max-width: 810px){
     #distriction {
-      margin: 40% 8% 0 20%;
+      margin: 48% 8% 0 20%;
       font-size: 1.2rem;
     }
   }

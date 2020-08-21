@@ -86,6 +86,16 @@
   }
 }
 
+@media screen and (max-width: 1284px){
+  .contact p{
+    font-size: 1.7rem;
+  }
+
+  .contact a{
+    margin-top: 17%;
+  }
+}
+
 @media screen and (max-width: 1024px){
   .title span {
     margin-top: 7%;
@@ -93,12 +103,17 @@
 
   .contact p{
     margin: 3% 5% 0 5%;
+    font-size: 1.6rem;
   }
-/* 
+
+  .contact a{
+    margin-top: 25%;
+  }
+
   span{
     margin-top: 7%;
-    font-size: 1rem;
-  } */
+    font-size: 1.6rem;
+  }
 
   span .distriction {
     margin-top: 15%;
@@ -106,18 +121,21 @@
 }
 
 @media screen and (max-width: 768px){
-/* 
-  span{
+  
+  .title span {
     margin-top: 7%;
-    font-size: 1rem;
-  } */
+  }
 
   .distriction {
     margin-top: 20%;
   }
 
-  span .line {
+  /* span .line {
     margin-top: 10%; 
+  } */
+
+  .contact a{
+    margin-top: 30%;
   }
 }
 </style>

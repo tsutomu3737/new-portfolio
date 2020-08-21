@@ -95,6 +95,12 @@
     }
   }
 
+  @media screen and (max-width: 1284px){
+    .work p{
+      font-size: 1.6rem;
+    }
+  }
+
   @media screen and (max-width: 1024px){
     #bg-video {
       min-width: 130%;

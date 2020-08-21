@@ -21,7 +21,7 @@
       小6〜中2まで硬式野球をやってました。<br>
       2017年にスカウトされ、毎年参戦しています。<br>
       ポジションは外野全般、サード<br>
-      今年は、まだ開幕していません😭
+      今年は9月に開幕予定です！
     </p>
     <ul class="game">
       <li><img src="./picture/game.jpg"></li>
@@ -44,7 +44,7 @@
       【国内、海外旅行】<br>
       コロナ前までは毎年1回は海外に行ってました。<br>
       アジア圏ばかりですが、異文化に触れるのは良い刺激になっています。<br>
-      左から、タイのアユタヤ(18年/10月)、フィリピンのマニラ(19年/7月)、上海(20年/1月)です。<br>
+      左から、タイのアユタヤ(18年/10月)、フィリピンのマニラ(19年/7月)、上海(20年/1月)<br>
     </p>
     <ul class="travel_pic">
       <li><img src="./picture/IMG_1178.jpg"></li>
@@ -89,6 +89,10 @@
 
   ul {
     display: flex;
+  }
+
+  li {
+    list-style: none;
   }
 
   .baseball li {
@@ -288,9 +292,13 @@
 }
 
 @media screen and (max-width: 1284px){
+  .favorite p{
+    font-size: 1.2rem;
+    margin: 6rem 2% 0 2%;
+  }  
   .baseball li {
     width: calc(100%/2);
-    margin: 36% auto 0 auto;
+    margin: 32% auto 0 auto;
   }
 
   .baseball img {
@@ -298,25 +306,29 @@
   }
 
   .favorite p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   p.play {
-    margin-top: 21%;
+    margin-top: 25%;
   }
 
   .game li{
-    width: calc(50%/2);
-    margin: 43% auto 0 auto;
+    width: calc(100%/2);
+    margin: 44% auto 0 auto;
+  }
+
+  .game li img {
+    width: 45%;
   }
 
   p.golf {
-    margin-top: 22%;  
+    margin-top: 37%;  
   }
 
   .golf_pic li {
-    margin: 40% auto 0 auto;
-    width: calc(50%/2);
+    margin: 57% auto 0 auto;
+    width: calc(100%/2);
   }
 
   .golf_pic li img {
@@ -325,11 +337,11 @@
   }
 
   p.travel{
-    margin-top: 27%;
+    margin-top: 32%;
   }
 
   .travel_pic li{
-    margin: 50% auto 0 auto;
+    margin: 48% auto 0 auto;
     width: calc(100%/2);
   }
 
@@ -341,7 +353,7 @@
 @media screen and (max-width: 1024px){
   .baseball li {
     width: calc(100%/2);
-    margin: 30% auto 0 auto;
+    margin: 38% auto 0 auto;
   }
 
   .baseball img {
@@ -384,12 +396,34 @@
   }
 
   .travel_pic li{
-    margin: 52% auto 0 auto;
+    margin: 60% auto 0 auto;
     width: calc(100%/2);
   }
 
   .travel_pic li img{
     height: 20%;
+  }
+}
+
+@media screen and (max-width: 810px){
+  .favorite p{
+    font-size: 1.2rem;
+  }
+
+  .baseball li {
+    margin: 35% auto 0 auto;
+  }
+
+  .game li{
+    margin: 50% auto 0 auto;
+  }
+
+  .golf_pic li {
+    margin: 58% auto 0 auto;
+  }
+
+  .travel_pic li{
+    margin: 54% auto 0 auto;
   }
 }
 
@@ -442,7 +476,7 @@
   }
 
   .travel_pic li{
-    margin: 50% auto 0 auto;
+    margin: 65% auto 0 auto;
     width: calc(100%/2);
   }
 
