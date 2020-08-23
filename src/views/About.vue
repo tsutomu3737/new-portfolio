@@ -1,6 +1,11 @@
 <template>
   <div class="about">
-    <video id="bg-video" src="https://player.vimeo.com/external/420755992.sd.mp4?s=7aab912a9192ec33786974d0327c6b69478dea2c&profile_id=139&oauth2_token_id=57447761" autoplay loop muted></video>
+    <video 
+      id="bg-video"
+      src="https://player.vimeo.com/external/420755992.sd.mp4?s=7aab912a9192ec33786974d0327c6b69478dea2c&profile_id=139&oauth2_token_id=57447761"
+      poster="about_bg.png"
+      autoplay loop muted>
+    </video>
     <div class="title">
       <span>About</span>
       <img src="./picture/main_photo.jpg">
@@ -61,8 +66,9 @@
   }
 
   #distriction {
-    margin: 28% 16% 0 24%;
+    margin: 35% 16% 0 24%;
     font-size: 2rem;
+    line-height: 3rem;
     text-align: left;
     width: auto;
   }
@@ -74,16 +80,23 @@
     margin-top: 3%;
   }
 
+  @media screen and (max-width: 1440px){
+    #distriction {
+      margin: 38% 16% 0 22%;
+      font-size: 1.8rem;
+    }
+  }
+
   @media screen and (max-width: 1366px){
     #distriction {
-      margin: 32% 16% 0 22%;
+      margin: 40% 16% 0 22%;
       font-size: 1.8rem;
     }
   }
 
   @media screen and (max-width: 1024px){
     #distriction {
-      margin: 46% 8% 0 15%;
+      margin: 56% 8% 0 15%;
       font-size: 1.7rem;
     }
     .about img {
@@ -93,14 +106,15 @@
 
   @media screen and (max-width: 810px){
     #distriction {
-      margin: 48% 8% 0 20%;
+      margin: 58% 8% 0 20%;
       font-size: 1.2rem;
+      line-height: 2rem;
     }
   }
 
   @media screen and (max-width: 768px){
     #distriction {
-      margin: 46% 7% 0 19%;
+      margin: 53% 7% 0 19%;
     }
     .about img {
       padding: 0 37% 0 37%;
@@ -124,6 +138,10 @@
     .title span {
       margin-top: 8%;
     }
+
+    #distriction {
+      margin: 65% 2% 0 2%;
+    }    
   }   
 
   @media screen and (max-width: 414px){
@@ -137,7 +155,7 @@
       font-size: 0.85rem;
       line-height: 1rem;
       padding-top: 70%;
-      margin: 0 2% 0 2%;
+      margin: 17% 2% 0 2%;
     }
 
     .about span {
@@ -149,7 +167,7 @@
   @media screen and (max-width: 375px){
     #distriction {
       font-size: 0.76rem;
-      margin: 5% 2% 0 2%;
+      margin: 20% 2% 0 2%;
     }
   }
 

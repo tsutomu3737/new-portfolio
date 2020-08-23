@@ -1,7 +1,12 @@
 <template>
   <div class="favorite">
     <span>Favorite</span><br>
-    <video id="bg-video" src="https://player.vimeo.com/external/357291961.sd.mp4?s=a8b241df4ff1f7bbbbc19eac516163b83f291ea4&profile_id=139&oauth2_token_id=57447761" autoplay loop muted></video>
+    <video 
+      id="bg-video"
+      src="https://player.vimeo.com/external/357291961.sd.mp4?s=a8b241df4ff1f7bbbbc19eac516163b83f291ea4&profile_id=139&oauth2_token_id=57447761"
+      poster="favorite_bg.png"
+      autoplay loop muted>
+    </video>
     <p>
       【野球観戦(高校〜プロ野球)】<br>
       2019年はよく神宮に行ってました。<br>
@@ -56,10 +61,19 @@
 <style scoped>
 
   #bg-video {
-    position: fixed;
+    /* position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover; */
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* top: 0; */
+    min-width: 200%;
     min-height: 100%;
     width: auto;
     height: auto;
@@ -486,6 +500,11 @@
 }
 
 @media screen and (max-width: 414px){
+
+  .video {
+    height: 
+  }
+
   .favorite p{
     margin-top: 3.5rem;
   }

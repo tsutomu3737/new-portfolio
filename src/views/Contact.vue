@@ -1,7 +1,13 @@
 <template>
 <!-- <transition mode="out-in"> -->
   <div class="contact">
-    <video id="bg-video" src="https://player.vimeo.com/external/422442712.sd.mp4?s=657d7d1599e623cac537e8971911fa6af9a48b21&profile_id=139&oauth2_token_id=57447761" autoplay loop muted></video>
+    <video
+      id="bg-video"
+      src="https://player.vimeo.com/external/422442712.sd.mp4?s=657d7d1599e623cac537e8971911fa6af9a48b21&profile_id=139&oauth2_token_id=57447761"
+      poster="contact_bg.png"
+      autoplay loop muted>
+      <img src="contact_bg.png">
+    </video>
     <div class="title">
       <span>Contact</span>
       <p class="distriction">
@@ -121,7 +127,6 @@
 }
 
 @media screen and (max-width: 768px){
-  
   .title span {
     margin-top: 7%;
   }
@@ -136,6 +141,21 @@
 
   .contact a{
     margin-top: 30%;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .contact span {
+    font-size: 3rem;
+  }
+  
+  .contact p{
+    font-size: 0.9rem;
+    margin-top: 0%;
+  }
+
+  .contact a{
+    margin-top: 50%;
   }
 }
 </style>

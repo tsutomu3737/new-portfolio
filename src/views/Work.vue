@@ -1,6 +1,11 @@
 <template>
   <div class="work">
-    <video id="bg-video" src="https://player.vimeo.com/external/422784406.sd.mp4?s=39a517486910290427a23a3efe0aa7d92d485948&profile_id=139&oauth2_token_id=57447761" autoplay loop muted></video>
+    <video 
+      id="bg-video"
+      src="https://player.vimeo.com/external/422784406.sd.mp4?s=39a517486910290427a23a3efe0aa7d92d485948&profile_id=139&oauth2_token_id=57447761"
+      poster="work_bg.png"
+      autoplay loop muted>
+    </video>
     <div class="title">    
       <span>Work</span><br>
       <p>
