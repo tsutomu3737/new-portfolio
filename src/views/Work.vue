@@ -7,7 +7,7 @@
       autoplay loop muted>
     </video>
     <div class="title">    
-      <span>Work</span><br>
+      <span>Work</span><br><br>
       <p>
         主な経験業務の一覧です。（フロントを中心に抜粋）<br><br>
         【占いサイトのフロント改修、サイトリニューアル】<br>
@@ -108,7 +108,7 @@
 
   @media screen and (max-width: 1024px){
     #bg-video {
-      min-width: 130%;
+      min-width: 241%;
     }
 
     .work span {
@@ -162,6 +162,7 @@
     }
     
     .work span {
+      margin-top: 7%;
       font-size: 3rem;
     }
     .work p{

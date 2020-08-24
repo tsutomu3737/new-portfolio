@@ -61,18 +61,9 @@
 <style scoped>
 
   #bg-video {
-    /* position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    background-size: cover; */
     position: fixed;
     right: 0;
     bottom: 0;
-    /* top: 0; */
     min-width: 200%;
     min-height: 100%;
     width: auto;
@@ -367,7 +358,7 @@
 @media screen and (max-width: 1024px){
   .baseball li {
     width: calc(100%/2);
-    margin: 38% auto 0 auto;
+    margin: 31% auto 0 auto;
   }
 
   .baseball img {
@@ -501,10 +492,6 @@
 
 @media screen and (max-width: 414px){
 
-  .video {
-    height: 
-  }
-
   .favorite p{
     margin-top: 3.5rem;
   }
@@ -515,7 +502,7 @@
 
   .baseball li {
     width: calc(100%/2);
-    margin: 68% auto 0 auto;
+    margin: 53% auto 0 auto;
   }
 
   .baseball img {

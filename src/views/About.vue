@@ -152,7 +152,7 @@
     }
 
     #distriction {
-      font-size: 0.85rem;
+      font-size: 0.84rem;
       line-height: 1rem;
       padding-top: 70%;
       margin: 17% 2% 0 2%;

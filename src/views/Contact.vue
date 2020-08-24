@@ -151,11 +151,12 @@
   
   .contact p{
     font-size: 0.9rem;
-    margin-top: 0%;
+    margin-top: -7%;
+    line-height: normal;
   }
 
   .contact a{
-    margin-top: 50%;
+    margin-top: 35%;
   }
 }
 </style>
