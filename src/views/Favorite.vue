@@ -244,7 +244,7 @@
   }
   .baseball li {
     width: calc(100%/2);
-    margin: 27% auto 0 auto;
+    margin: 23% auto 0 auto;
   }
 
   .baseball img {
